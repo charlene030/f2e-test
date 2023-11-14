@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The F2E</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style-mobile.css" />
+    <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"></script>
+  </head>
+  <body>
+    <nav class="menu-mobile">
+      <img src="/images/hamburger.png" onclick="toggleSlideMenu()" />
+    </nav>
+    <div class="slide-menu">
+      <img class="x" src="/images/x.png" onclick="closeSlideMenu()" />
+      <div class="icon-container w-100">
+        <div class="icon">2</div>
+      </div>
+      <ul>
+        <li><a href="#candidate">候選人主張</a></li>
+        <li><a href="#new-event">最新活動</a></li>
+        <li><a href="#">政策議題</a></li>
+        <li><a href="#donate">小額捐款</a></li>
+        <li><a href="#form">民眾服務信箱</a></li>
+      </ul>
+    </div>
+    <div class="profile row" id="main">
+      <div class="col-6 item">
+        <div class="text">
+          <h3>2024立委參選人</h3>
+          <div class="name">
+            <h1 class="number">2</h1>
+            <h1>喵立翰</h1>
+          </div>
+
+          <h2>台灣的明天 喵先鋪路</h2>
+        </div>
+      </div>
+    </div>
+    <div class="donate row">
+      <div class="col-6 item">
+        <div class="text">
+          <p class="title">小額捐款</p>
+          <p>您的小筆捐款,<br />是每隻毛小孩未來的大大動力 !</p>
+        </div>
+
+        <a href="#donate">我要捐款</a>
+      </div>
+      <div class="col-6 img item">
+        <img src="/images/cat.png" />
+      </div>
+    </div>
+    <div class="candidate-says row" id="candidate">
+      <div class="col-12">
+        <div class="title"><h2>候選人主張</h2></div>
+      </div>
+      <div class="text col-8">
+        我堅信,藉由推動更完善的貓咪福利和相關政策,更是間接地投資於台灣的未來.畢竟,民眾的身心健康<br /><br />
+        因此,我期望能在立法院內推進這些政策,確保每一隻貓咪都能得到他們應有的照顧,同時也為台灣的經濟發展助一臂之力.
+      </div>
+      <div class="signature col-4">
+        <img src="/images/signature.png" />
+      </div>
+    </div>
+
+    <div class="new-event row" id="new-event">
+      <div class="col-12">
+        <div class="title"><h2>最新活動</h2></div>
+      </div>
+      <div class="col-12 row">
+        <div class="col-2 icon-container">
+          <div class="icon w-100">
+            <img src="/images/pawBlack.png" />
+          </div>
+        </div>
+
+        <div class="col-10">
+          <div class="text-content row">
+            <div class="col-12 p-0">
+              <div class="date">2023.12.26</div>
+            </div>
+            <div class="col-12 content">
+              <div class="w-100 row">
+                <div class="col-3 left">
+                  <img src="/images/event01.png" />
+                </div>
+                <div class="col-6 middle">
+                  <div>
+                    <h2>參與台北寵物論壇，爭取貓咪友善環境</h2>
+                    <p>
+                      炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的
+                      VIP 休憩空間。
+                    </p>
+                  </div>
+                </div>
+                <div class="col-3 right p-0">
+                  <img class="w-100" src="/images/drop.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 row">
+        <div class="col-2 icon-container">
+          <div class="icon w-100">
+            <img src="/images/pawBlack.png" />
+          </div>
+        </div>
+
+        <div class="col-10">
+          <div class="text-content row">
+            <div class="col-12 p-0">
+              <div class="date">2023.12.24</div>
+            </div>
+            <div class="col-12 content">
+              <div class="w-100 row">
+                <div class="col-3 left">
+                  <img src="/images/event02.png" />
+                </div>
+                <div class="col-6 middle">
+                  <div>
+                    <h2>掃街模式開啟！帶著你的貓耳，來和我一起走！</h2>
+                    <p>
+                      街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。
+                    </p>
+                  </div>
+                </div>
+                <div class="col-3 right p-0">
+                  <img class="w-100" src="/images/drop.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 row">
+        <div class="col-2 icon-container">
+          <div class="icon w-100">
+            <img src="/images/pawBlack.png" />
+          </div>
+        </div>
+
+        <div class="col-10">
+          <div class="text-content row">
+            <div class="col-12 p-0">
+              <div class="date">2023.12.20</div>
+            </div>
+            <div class="col-12 content">
+              <div class="w-100 row">
+                <div class="col-3 left">
+                  <img src="/images/event03.png" />
+                </div>
+                <div class="col-6 middle">
+                  <div>
+                    <h2>收容所模特兒大比拼！</h2>
+                    <p>
+                      今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！
+                    </p>
+                  </div>
+                </div>
+                <div class="col-3 right p-0">
+                  <img class="w-100" src="/images/drop.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 btn-container">
+        <button>載入更多</button>
+      </div>
+    </div>
+
+    <div class="issue row">
+      <div class="col-12">
+        <div class="title"><h2>政策議題</h2></div>
+      </div>
+      <div class="col-12 slide-container w-100">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="d-block w-100">
+                <div class="title">
+                  政策1
+                  <img src="/images/pawYellow.png" />
+                </div>
+                <div class="container w-75">
+                  <h1>為毛孩子謀福利！推動寵物醫療保障方案</h1>
+                  <div class="row">
+                    <div class="col-8 text">
+                      <ol>
+                        <li>
+                          設立寵物醫療基金：每年撥款新台幣 10
+                          億元，專款專用於支援家庭寵物的醫療費用。
+                        </li>
+                        <li>
+                          提供醫療補助：每隻寵物每年可獲得高達新台幣 20,000
+                          元的醫療補助，減輕飼主的經濟壓力。
+                        </li>
+                        <li>
+                          合作動物醫院：目前已有和超過 200
+                          家動物醫院進行初步的合作討論。
+                        </li>
+                      </ol>
+                    </div>
+                    <div class="col-4">
+                      <img src="/images/issue01.png" class="issue-img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="d-block w-100">
+                <div class="title">
+                  政策2
+                  <img src="/images/pawYellow.png" />
+                </div>
+                <div class="container w-75">
+                  <h1>打造休閒天堂！推廣寵物休閒與娛樂場所</h1>
+                  <div class="row">
+                    <div class="col-8 text">
+                      <ol>
+                        <li>
+                          建立寵物公園：每年撥款新台幣 5
+                          億元，用於在各大都市建立專屬的寵物公園。根據初步規劃，預計在第一年內，將在全國範圍內建立至少
+                          10 座寵物公園。
+                        </li>
+                        <li>
+                          推廣寵物友善商家：鼓勵商家提供寵物友善的環境，並為參與的商家提供稅收優惠。預計在政策實施後的首年，將有超過
+                          500 家商家加入此計畫。
+                        </li>
+                        <li>
+                          舉辦寵物活動和工作坊：與各大寵物社團和組織合作，每年舉辦至少
+                          5
+                          場大型的寵物活動，包括寵物才藝比賽、飼養知識工作坊等。
+                        </li>
+                      </ol>
+                    </div>
+                    <div class="col-4">
+                      <img src="/images/issue02.png" class="issue-img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100">
+                <div class="title">
+                  政策3
+                  <img src="/images/pawYellow.png" />
+                </div>
+                <div class="container w-75">
+                  <h1>推廣寵物飼養教育，讓愛更加專業</h1>
+                  <div class="row">
+                    <div class="col-8 text">
+                      <ol>
+                        <li>
+                          建立寵物飼養教育中心：每年撥款新台幣 3
+                          億元，用於在全國各地建立專業的寵物飼養教育中心。預計在第一年內，在全國至少
+                          5 大城市設立教育中心。
+                        </li>
+                        <li>
+                          推廣寵物飼養課程：與學校、社區組織和寵物社團合作，推出一系列免費的寵物飼養課程。預計每年將有超過
+                          10,000 名市民受益。
+                        </li>
+                        <li>
+                          製作教育資料：出版寵物飼養手冊、影片和線上課程，讓所有有意飼養寵物的家庭都能輕鬆取得正確的知識。
+                        </li>
+                      </ol>
+                    </div>
+                    <div class="col-4">
+                      <img src="/images/issue01.png" class="issue-img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev carousel-control"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon icon"
+              aria-hidden="true"
+            ></span>
+          </button>
+
+          <button
+            class="carousel-control-next carousel-control"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon icon"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="donation-area row" id="donate">
+      <div class="col-6">
+        <div class="col-12">
+          <div class="title"><h2>小額捐款</h2></div>
+        </div>
+        <div class="col-12 left-content">
+          <div class="item-container row">
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModalLong"
+            >
+              <div class="row">
+                <div class="col-6 text">
+                  <h2>喵星人之友</h2>
+                  <p>已有 <span class="person-number">9957</span> 人贊助</p>
+                  <h2 class="ntd">NT$ <span class="number">600</span></h2>
+                </div>
+                <div class="col-6 pics">
+                  <img src="/images/animal01.png" />
+                </div>
+              </div>
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModalLong"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLongTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog costimized-modal" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="img-container w-100">
+                      <img src="/images/animal04.png" />
+                    </div>
+                    <div class="page w-100">
+                      <div class="white-container row">
+                        <h2 style="font-weight: bold">政治獻金捐贈規定</h2>
+
+                        <div class="col-12">
+                          <div
+                            data-bs-spy="scroll"
+                            data-bs-target="#scrollspy-example"
+                            data-bs-offset="0"
+                            class="scrollspy-example"
+                          >
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur
+                              adipisicing elit. Pariatur quae maiores eligendi
+                              soluta! Sapiente deserunt nihil placeat porro cum
+                              id incidunt quos voluptates consequatur rem, sequi
+                              numquam? Aperiam suscipit rerum consequuntur illo
+                              error voluptatum dolore dolorem totam illum nisi
+                              voluptatibus quasi natus eos eveniet, hic
+                              laboriosam magnam, perspiciatis tempore. Ea non
+                              est aut totam ullam saepe dolores laboriosam quae
+                              doloremque fuga officia, a nemo at minus
+                              praesentium quis. Quasi, velit et laborum
+                              repellendus libero nulla consequatur, quae sunt
+                              nam excepturi blanditiis quam ipsa nostrum saepe
+                              consequuntur quod dicta dignissimos, quas
+                              repudiandae perspiciatis. Blanditiis ipsam, dolore
+                              quod quidem consequatur non atque?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn-container w-100">
+                      <button
+                        type="button"
+                        class="btn btn1"
+                        data-bs-dismiss="modal"
+                      >
+                        取消
+                      </button>
+                      <button class="btn2">同意條款，前往捐款</button>
+                    </div>
+                  </div>
+                  <div class="modal-footer"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-container row">
+            <div class="col-6 text">
+              <h2>喵星大使</h2>
+              <p>已有 <span class="person-number">2000</span> 人贊助</p>
+              <h2 class="ntd">NT$ <span class="number">6,000</span></h2>
+            </div>
+            <div class="col-6 pics">
+              <img src="/images/animal02.png" />
+            </div>
+          </div>
+          <div class="item-container row">
+            <div class="col-6 text">
+              <h2>貓星傳奇</h2>
+              <p>已有 <span class="person-number">9957</span> 人贊助</p>
+              <h2 class="ntd">NT$ <span class="number">60,000</span></h2>
+            </div>
+            <div class="col-6 pics">
+              <img src="/images/animal03.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 right-content">
+        <div class="col-12">
+          <div class="w-100">
+            <div class="content">
+              <h2>您的小筆捐款,<br />是每隻毛小孩未來的大大動力 !</h2>
+              <p>目前小額贊助總金額</p>
+              <h1 class="counter">987,655,873</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 w-100 mt-3">
+          <div class="square">
+            <img src="/images/tag.png" />
+            <div class="item py-5">
+              <h1 class="w-100">自訂贊助金額</h1>
+              <div class="w-100">
+                <input placeholder="NT$ 請自行輸入金額" />
+              </div>
+              <div class="w-100">
+                <button>前往捐款</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-area" id="form">
+      <h1>您的聲音, 我們的行動 !</h1>
+      <div class="row">
+        <div class="col-3 pic-container">
+          <img class="bg-deco" src="/images/yellowpaint.png" />
+          <img class="person-pic" src="/images/profile02.png" />
+        </div>
+        <div class="col-9">
+          <p>
+            親愛的鄉親, 每一位市民的意見都是我們社區前進的原動力.<br />無論大小事,
+            我都誠摯希望聽到您的建議. 分享您的想法, 一同為我們的未來打造更美好 !
+          </p>
+          <div class="form-with-decoration">
+            <div class="form-container">
+              <div class="item-container">
+                <form>
+                  <p>姓名</p>
+                  <input type="text" name="name" placeholder="您的姓名" />
+                  <p>電子信箱</p>
+                  <input type="text" name="name" placeholder="您的電子信箱" />
+                  <p>手機</p>
+                  <input type="text" name="name" placeholder="您的手機號碼" />
+                  <p>建言</p>
+                  <textarea
+                    type="text"
+                    name="name"
+                    placeholder="您的建言"
+                    class="textarea"
+                  ></textarea>
+                  <br />
+                  <div class="btn-container">
+                    <button>
+                      <div class="item">
+                        <div>送出意見</div>
+                      </div>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="form-deco">
+              <img src="images/bookmark.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer row">
+      <div class="bg-image">
+        <img src="/images/yellowpaint.png" />
+      </div>
+      <div class="col-4 item">
+        <div class="contact-info">
+          <div class="title">聯絡資訊</div>
+          <div class="block">
+            <div>
+              辦公室 : 喵星區,毛茸茸大道88號,喵喵大樓3樓<br />
+              電話 : (02) 888-5678<br />
+              電子郵件地址 : meowoffice@linmeow.tw
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 item">
+        <div class="title" 2>快速連結</div>
+        <div class="block">
+          <ul>
+            <li><a href="#main">首頁</a></li>
+            <li><a href="#candidate">候選人主張</a></li>
+            <li><a href="#new-event">最新活動</a></li>
+            <li><a href="#">政策議題</a></li>
+            <li><a href="#donate">小額捐款</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="container">
+          <h3>喵黨立委參選人</h3>
+          <p>版權聲明 : &copy; 2023 喵立翰 版權所有</p>
+        </div>
+      </div>
+      <div class="bg-icons">
+        <img src="/images/icons.png" />
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+      const counterUp = window.counterUp.default;
+
+      const callback = (entries) => {
+        entries.forEach((entry) => {
+          const el = entry.target;
+          if (entry.isIntersecting && !el.classList.contains("is-visible")) {
+            counterUp(el, {
+              duration: 1000,
+              delay: 16,
+            });
+            el.classList.add("is-visible");
+          }
+        });
+      };
+
+      const IO = new IntersectionObserver(callback, { threshold: 1 });
+
+      const el = document.querySelector(".counter");
+      IO.observe(el);
+
+      let isMenuOpen = false;
+
+      function toggleSlideMenu() {
+        if (isMenuOpen) {
+          closeSlideMenu();
+        } else {
+          openSlideMenu();
+        }
+      }
+
+      function openSlideMenu() {
+        document.querySelector(".slide-menu").style.left = "0";
+        isMenuOpen = true;
+      }
+
+      function closeSlideMenu() {
+        document.querySelector(".slide-menu").style.left = "-2000px";
+        isMenuOpen = false;
+      }
+    </script>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
